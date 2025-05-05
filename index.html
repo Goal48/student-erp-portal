@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College ERP Tool</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">
+      <h1>College ERP</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Students</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Reports</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h2>Welcome to the College ERP System</h2>
+    <p>Streamline student management, course scheduling, and reporting.</p>
+  </header>
+
+  <!-- Student Management Section -->
+  <section class="students-section">
+    <div class="section-header">
+      <h3>Student Management</h3>
+      <button onclick="addStudent()">Add New Student</button>
+    </div>
+    <div id="students-list" class="student-list">
+      <!-- Student data will appear here -->
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 College ERP Tool. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
